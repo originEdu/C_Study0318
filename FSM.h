@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include <string>
 //#include "State.h"
 //#include "Transition.h"
 

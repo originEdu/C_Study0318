@@ -1,12 +1,13 @@
 ﻿#pragma once
 #include "Point.h"
 
-class UMonster
+class AMonster
 {
 public:
-	UMonster();
-	~UMonster();
+	AMonster();
+	~AMonster();
 
+	char RenderChar;
 	UPoint Position;
 	
 	void Move(UPoint Position);

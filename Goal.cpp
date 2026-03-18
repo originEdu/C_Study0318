@@ -1,9 +1,9 @@
 ﻿#include "Goal.h"
 
-UGoal::UGoal()
+AGoal::AGoal()
 {
 }
 
-UGoal::~UGoal()
+AGoal::~AGoal()
 {
 }

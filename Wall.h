@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include "Point.h"
 
-class UWall
+class AWall
 {
 public:
-	UWall();
-	~UWall();
+	AWall();
+	~AWall();
 
 	UPoint Position;
 	bool IsPassed;

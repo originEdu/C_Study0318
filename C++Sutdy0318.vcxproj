@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Floor.cpp" />
     <ClCompile Include="FSM.cpp" />
     <ClCompile Include="Goal.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
     <ClInclude Include="Floor.h" />
     <ClInclude Include="FSM.h" />
     <ClInclude Include="Goal.h" />
@@ -146,6 +148,9 @@
     <ClInclude Include="Transition.h" />
     <ClInclude Include="Wall.h" />
     <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

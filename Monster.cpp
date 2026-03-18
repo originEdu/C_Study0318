@@ -1,15 +1,15 @@
 ﻿#include "Monster.h"
 #include "Player.h"
 
-UMonster::UMonster()
+AMonster::AMonster()
 {
 }
 
-UMonster::~UMonster()
+AMonster::~AMonster()
 {
 }
 
-void UMonster::Move(UPoint Position)
+void AMonster::Move(UPoint Position)
 {
 
 }

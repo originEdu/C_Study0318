@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include "Point.h"
 
-class UFloor
+class AFloor
 {
 public:
-	UFloor();
-	~UFloor();
+	AFloor();
+	~AFloor();
 
 	UPoint Position;
 };

@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include "Point.h"
-class UPlayer
+
+#include "Actor.h"
+class APlayer : public AActor
 {
 public:
-	UPlayer();
-	~UPlayer();
-
-	UPoint Position;
+	APlayer();
+	~APlayer();
 
 	void Move(UPoint point);
 	bool CheckIsWall(UPoint point);

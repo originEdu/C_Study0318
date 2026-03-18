@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include "Point.h"
 
-class UGoal
+class AGoal
 {
 public:
-	UGoal();
-	~UGoal();
+	AGoal();
+	~AGoal();
 
 	UPoint Position;
 };

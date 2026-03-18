@@ -16,7 +16,5 @@ public:
 	Player* Player;
 	Monster* Monster;
 	Goal* Goal;
-	
-
 };
 

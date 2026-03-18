@@ -1,24 +1,24 @@
 ﻿#include "Player.h"
 
-UPlayer::UPlayer()
+APlayer::APlayer()
 {
 }
 
-UPlayer::~UPlayer()
+APlayer::~APlayer()
 {
 }
 
-void UPlayer::Move(UPoint point)
+void APlayer::Move(UPoint point)
 {
 
 }
 
-bool UPlayer::CheckIsWall(UPoint point)
+bool APlayer::CheckIsWall(UPoint point)
 {
     return false;
 }
 
-bool UPlayer::CheckIsGoal(UPoint point)
+bool APlayer::CheckIsGoal(UPoint point)
 {
     return false;
 }
