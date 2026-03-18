@@ -9,6 +9,7 @@ public:
 	UPoint Position;
 
 	void Move(UPoint point);
+	bool CheckIsWall(UPoint point);
 	bool CheckIsGoal(UPoint point);
 };
 
