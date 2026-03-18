@@ -1,6 +1,8 @@
 ﻿#pragma once
 class Floor;
 class Wall;
+class Player;
+class Monster;
 
 class UWorld
 {
@@ -10,7 +12,8 @@ public:
 
 	Floor* Floors;
 	Wall* Walls;
+	Player* Player;
+	Monster* Monster;
 
-	void ChangeGameOver(bool IsGameOver);
 };
 
