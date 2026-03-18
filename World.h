@@ -3,6 +3,7 @@ class Floor;
 class Wall;
 class Player;
 class Monster;
+class Goal;
 
 class UWorld
 {
@@ -14,6 +15,8 @@ public:
 	Wall* Walls;
 	Player* Player;
 	Monster* Monster;
+	Goal* Goal;
+	
 
 };
 
